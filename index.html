@@ -13,10 +13,18 @@
         }
     </style>
         <script>
-                var name = prompt('What is your name?')
-                var verb = prompt(name + ', so what is your favorite present tense verb?')
-                var place = prompt(name + ', whom likes to ' + verb + ', where is a location you enjoy?')
-                var animal = prompt('What is your favorite animal?')
+                var name = prompt('What is your name?');
+                console.log("User's name is " + name);
+
+                var verb = prompt(name + ', so what is your favorite present tense verb?');
+                console.log("User's favorite verb is " + verb);
+
+                var place = prompt(name + ', whom likes to ' + verb + ', where is a location you enjoy?');
+                console.log("User's favorite location is " + place);
+
+                var animal = prompt('What is your favorite animal?');
+                console.log("User's favorite animal is " + animal);
+
                 alert(name + ', given those previous questions... Does that mean you like when a ' + animal + ' ' + verb + ' at ' + place + '?')
             </script>
 </head>
