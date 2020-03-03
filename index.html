@@ -12,22 +12,22 @@
             border-radius: 5px;
         }
     </style>
+        <script>
+                var name = prompt('What is your name?')
+                var verb = prompt(name + ', so what is your favorite present tense verb?')
+                var place = prompt(name + ', whom likes to ' + verb + ', where is a location you enjoy?')
+                var animal = prompt('What is your favorite animal?')
+                alert(name + ', given those previous questions... Does that mean you like when a ' + animal + ' ' + verb + ' at ' + place + '?')
+            </script>
 </head>
 <body>
     <header></header>
     <main>
         <h1>Class 1 Lab</h1>
-        <p style="color:yellow">What is your name?</p>
-        <p style="color:orange">What is your favorite present tense verb?</p>
-        <p style="color:red">What location do you enjoy?</p>
-        <p style="color: purple;">What is an animal you like?</p>
-        <script>
-            var name = prompt('What is your name?')
-            var verb = prompt(name + ', so what is your favorite verb?')
-            var place = prompt(name + ', whom likes to ' + verb + ', where is a location you enjoy?')
-            var animal = prompt('What is your favorite animal?')
-            alert(name + ', given those previous questions... Does that mean you like when a ' + animal + ' ' + verb + ' at ' + place + '?')
-        </script>
+        <p style="color:yellow; background-color: aqua;">What is your name?</p>
+        <p style="color:orange; background-color: lightseagreen;">What is your favorite present tense verb?</p>
+        <p style="color:red;background-color: green;">What location do you enjoy?</p>
+        <p style="color: purple; background-color: yellow;">What is an animal you like?</p>
     </main>
     <footer></footer>
 </body>
